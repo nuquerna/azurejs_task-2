@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "deploy": "node ./deploy.js"
+  },
+  "dependencies": {
+    "azure-storage": "^2.10.7",
+    "dotenv": "^16.4.5"
+  }
+}

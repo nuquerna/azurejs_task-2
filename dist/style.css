@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: #f2f2f2;
+  padding: 20px;
+}
+main {
+  padding: 20px;
+}
+
+@keyframes buzz {
+    0% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(-10px) rotate(-5deg); }
+    50% { transform: translateX(0) rotate(0deg); }
+    75% { transform: translateX(10px) rotate(5deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+}
+
+img {
+    display: inline-block;
+    animation: buzz 0.6s infinite;
+}
