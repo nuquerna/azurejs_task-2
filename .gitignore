@@ -1,8 +1,6 @@
 node_modules/
-*.tf
-*.tfvars
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-.terraform/
 .env
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+variables.tf.secret

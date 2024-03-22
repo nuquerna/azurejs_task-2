@@ -1,9 +1,8 @@
 {
+  "name": "task_2",
+  "version": "1.0.0",
   "scripts": {
-    "deploy": "node ./deploy.js"
-  },
-  "dependencies": {
-    "azure-storage": "^2.10.7",
-    "dotenv": "^16.4.5"
+    "upload-blob": "az storage blob upload-batch -s './dist' -d '$web' --account-name maebarakeichinuq",
+    "start": "terraform apply && npm run upload-blob"
   }
 }
